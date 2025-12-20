@@ -39,3 +39,17 @@ Customer-Churn-Analysis/
 │   └── churn_by_tenure.png
 │
 └── README.md
+
+## 📊 Visual Insights
+
+### Customer Churn Distribution
+![Churn Distribution](plots/churn_distribution.png)
+
+### Churn by Contract Type
+![Churn by Contract](plots/churn_by_contract.png)
+
+### Churn by Payment Method
+![Churn by Payment](plots/churn_by_payment.png)
+
+### Churn by Tenure
+![Churn by Tenure](plots/churn_by_tenure.png)
