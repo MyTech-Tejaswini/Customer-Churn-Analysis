@@ -43,7 +43,7 @@ Customer-Churn-Analysis/
 ## 📊 Visual Insights
 
 ### Customer Churn Distribution
-![Churn Distribution](plots/churn_distribution.png)
+![Churn Distribution](plots/churn_by_distribution.png)
 
 ### Churn by Contract Type
 ![Churn by Contract](plots/churn_by_contract.png)
