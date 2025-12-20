@@ -1,55 +1,47 @@
-# Customer Churn Analysis
+# 📊 Customer Churn Analysis
 
-## 📌 Project Overview
-This project analyzes telecom customer churn to identify key factors influencing customer attrition using SQL and Python.
-
-## 🛠 Tools & Technologies
-- SQL (MySQL)
-- Python (Pandas, Matplotlib)
-- VS Code
-
-## 📊 Key Analysis
-- Overall churn rate analysis
-- Churn by contract type
-- Churn by payment method
-- Churn by customer tenure
-
-## 📈 Key Insights
-- Overall churn rate is ~26.6%, indicating significant customer attrition.
-- Month-to-month contracts show the highest churn (~43%).
-- Customers using electronic check payment method have higher churn.
-- New customers (0–12 months tenure) are more likely to churn.
+This repository contains a complete analysis of customer churn using the Telco Customer Churn dataset.  
+It includes Python scripts, SQL queries, and visual insights.
 
 ## 📂 Project Structure
+
 Customer-Churn-Analysis/
 │
-├── data/
-│   └── Telco-Customer-Churn.csv
-│
-├── python/
-│   └── churn_analysis.py
-│
-├── sql/
-│   └── churn_analysis.sql
-│
-├── plots/
-│   ├── churn_distribution.png
-│   ├── churn_by_contract.png
-│   ├── churn_by_payment.png
-│   └── churn_by_tenure.png
-│
-└── README.md
+├── data/                # CSV dataset
+├── python/              # Python scripts for analysis
+├── sql/                 # SQL queries
+├── plots/               # Generated charts and visuals
+└── README.md            # Project documentation
 
-## 📊 Visual Insights
+## 📈 Visual Insights
 
-### Customer Churn Distribution
-![Churn Distribution](plots/churn_by_distribution.png)
+| ![Distribution](plots/churn_by_distribution.png) | ![By Contract](plots/churn_by_contract.png) |
+|--------------------------------------------------|-------------------------------------------|
+| ![By Payment](plots/churn_by_payment.png)       | ![By Tenure](plots/churn_by_tenure.png)  |
 
-### Churn by Contract Type
-![Churn by Contract](plots/churn_by_contract.png)
 
-### Churn by Payment Method
-![Churn by Payment](plots/churn_by_payment.png)
+## 📝 Summary Metrics
 
-### Churn by Tenure
-![Churn by Tenure](plots/churn_by_tenure.png)
+| Metric | Value |
+|--------|-------|
+| Total Customers | 7,032 |
+| Churned | 1,869 (26.58%) |
+| Not Churned | 5,163 (73.42%) |
+| Missing `TotalCharges` | 0 |
+
+
+## ⚡ How to Run
+
+1. Clone the repo:
+```bash
+git clone https://github.com/MyTech-Tejaswini/Customer-Churn-Analysis.git
+
+
+
+
+
+
+
+
+
+
